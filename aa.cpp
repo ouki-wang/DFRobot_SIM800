@@ -1,7 +1,8 @@
-#include <stdio.h>
-
-int main(void)
+void setup()
 {
-	printf("hello\n");
-	return 0;
+	Serial.begin(115200);
+}
+void loop()
+{
+	Serial.println("hello\n");
 }
